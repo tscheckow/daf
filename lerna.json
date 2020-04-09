@@ -9,16 +9,16 @@
   },
   "command": {
     "publish": {
-      "allowBranch": ["master", "beta"],
+      "allowBranch": ["master", "beta", "alpha"],
       "conventionalCommits": true,
       "gitRemote": "origin",
       "message": "chore(release): %s"
     },
     "version": {
-      "allowBranch": ["beta"],
+      "allowBranch": ["master", "beta", "alpha"],
       "conventionalCommits": true,
       "gitRemote": "origin",
-      "message": "chore(beta-release): %s"
+      "message": "chore(release): %s"
     }
   },
   "useWorkspaces": true
