@@ -1,7 +1,6 @@
 {
-  "version": "3.4.0",
+  "version": "4.0.0-alpha.2",
   "packages": ["packages/*"],
-
   "npmClient": "yarn",
   "changelog": {
     "repo": "uport-project/daf",
@@ -16,9 +15,7 @@
     },
     "version": {
       "allowBranch": ["master", "beta", "alpha"],
-      "conventionalCommits": true,
-      "gitRemote": "origin",
-      "message": "chore(release): %s"
+      "conventionalCommits": true
     }
   },
   "useWorkspaces": true
